@@ -31,4 +31,4 @@ spec:
           proxy_hide_header l5d-server-id;
       path: /
       hosts:
-      - a06825364db2911e9a70f0a071e2085d-1243135011.eu-central-1.elb.amazonaws.com.nip.io
+      - a06825364db2911e9a70f0a071e2085d-1243135011.eu-central-1.elb.amazonaws.com
