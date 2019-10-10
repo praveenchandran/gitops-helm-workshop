@@ -9,7 +9,7 @@ spec:
   releaseName: helm-tester
   chart:
     git: https://github.com/weaveworks/flagger
-    ref: 0.18.4
+    ref: 0.19.0
     path: charts/loadtester
   values:
     fullnameOverride: helm-tester
