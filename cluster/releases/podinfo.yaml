@@ -19,7 +19,7 @@ spec:
       repository: 765715887385.dkr.ecr.eu-central-1.amazonaws.com/test/podinfo
       tag: 2.1.7
     service:
-      enabled: true
+      enabled: false
       type: ClusterIP
     ingress:
       enabled: true
