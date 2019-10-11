@@ -1,6 +1,6 @@
 # Default values for podinfo.
 
-replicaCount: 3
+replicaCount: 2
 logLevel: info
 backend: #http://backend-podinfo:9898/echo
 message: #UI greetings
@@ -26,7 +26,7 @@ service:
 
 # metrics-server add-on required
 hpa:
-  enabled: true
+  enabled: false
   maxReplicas: 10
   # average total CPU usage per pod (1-100)
   cpu:
