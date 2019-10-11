@@ -16,8 +16,8 @@ spec:
     path: cluster/charts/podinfo
   values:
     image:
-      repository: stefanprodan/podinfo
-      tag: 3.1.5
+      repository: 765715887385.dkr.ecr.eu-central-1.amazonaws.com/test/podinfo
+      tag: 0.1.1
     service:
       enabled: false
       type: ClusterIP
